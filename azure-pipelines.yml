@@ -28,7 +28,7 @@ steps:
     targetFile: 'package.json'
     monitorWhen: 'always'
     failOnIssues: true
-    organization: 'TestOrg'
+    organization: '5ab1f22d-4641-4d1c-9b86-5500ea1c4601'
 - task: CopyFiles@2
   inputs:
     sourceFolder: '$(Build.SourcesDirectory)'
