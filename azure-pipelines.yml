@@ -25,6 +25,7 @@ steps:
   inputs:
     serviceConnectionEndpoint: 'AzDSnyk'
     testType: 'app'
+    targetFile: 'package.json'
     monitorWhen: 'always'
     failOnIssues: true
     organization: 'TestOrg'
